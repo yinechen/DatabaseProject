@@ -7,7 +7,7 @@ namespace ProjectModel.Instance
 {
     public class DbInstance
     {
-        private string _serverIp = "localhost";//"192.168.7.138";
+        private string _serverIp = "127.0.0.1";//"192.168.7.138";
         private uint _port = 1521;
         private string _instanceName = "orcl";
 

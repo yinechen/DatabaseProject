@@ -32,7 +32,7 @@ namespace ProjectModel.DbUser
 
         public virtual string ToConnUserString()
         {
-            return string.Format("User Id={0};Password={1};", "newdba", "newdba");
+            return string.Format("User Id={0};Password={1};", "system", "gvitech");
         }
     }
 }
