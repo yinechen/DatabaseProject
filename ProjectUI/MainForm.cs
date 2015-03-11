@@ -18,7 +18,8 @@ namespace ProjectUI
 
         private void tsb_CreateUser_Click(object sender, EventArgs e)
         {
-
+            CreateUserDlg myDlg = new CreateUserDlg();
+            myDlg.ShowDialog();
         }
     }
 }
